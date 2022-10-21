@@ -13,6 +13,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MenuComponent } from './Components/menu/menu.component';
 import { MatListModule } from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -26,6 +30,9 @@ import { MatListModule } from '@angular/material/list';
     MatToolbarModule,
     MatIconModule,
     MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatButtonModule,
     BrowserAnimationsModule,
 
   ],
